@@ -1,0 +1,30 @@
+.button{
+    margin: 20px;
+    background-color: rgb(255, 113, 32);
+    border: 2px rgb(255, 113, 32) solid;
+    padding: 20px 60px;
+    display: flex;
+    text-align: center;
+    border-style: none;
+    border-radius: 50px;
+    font-family: 'DS-Digital', monospace;
+    font-size: 20px;
+    transition: 0.2s;
+    max-height: fit-content;
+    align-items: center;
+
+}
+
+.button:hover{
+    outline: 2px rgb(255, 113, 32) solid;
+    background-color: white;
+    color: rgb(255, 113, 32);
+    padding: 20px 70px;
+}
+
+.button:active{
+    background-color: rgb(255, 113, 32);
+    color: white;
+    padding: 20px 60px;
+
+}

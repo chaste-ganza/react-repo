@@ -1,11 +1,15 @@
-function App(){
+import { useState } from 'react'
+import './App.css'
+import Login from "./pages/login.jsx"
+import classChoose from "./pages/classChoose.jsx"
+import Mascot from './components/mascot.jsx'
+
+function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className="App">
-      <h1>
-        Hello World!
-      </h1>
-    </div>
+      <Login/>
   )
 }
 
-export default App;
+export default App
