@@ -1,6 +1,10 @@
 body{
   margin: 0;
   display: flex;
-  font-family: 'DS-Digital', monospace;
+  font-family: 'DS-Digital', monospace; 
+}
+
+body::selection{
+  background-color: rgb(255, 113, 32);
 }
 

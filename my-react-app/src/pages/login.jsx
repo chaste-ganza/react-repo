@@ -15,15 +15,15 @@ function Login(){
                     <h1 className={styles.formTitle}>Login</h1>
                     <div className={styles.inputContainer}>
                         <label htmlFor="email">Email</label>
-                        <input type="email" placeholder="Enter email" name="email"/>
+                        <input type="email" placeholder="Enter email" name="email" required/>
                     </div>
                     <div className={styles.inputContainer}>
                         <label htmlFor="password" >Password</label>
-                        <input type="password" placeholder="Enter password" />
+                        <input type="password" placeholder="Enter password" required/>
                     </div>
                     <div className={styles.buttonContainer}>
-                        <Fbutton type="reset" content="Login"/>
-                        <Fbutton type="reset" content="Register"/>
+                        <Fbutton content="Login" type="reset"/>
+                        <Fbutton content="Register" type="reset"/>
 
                     </div>
                     

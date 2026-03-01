@@ -1,0 +1,36 @@
+.background{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.strip1{
+    height: 20vh;
+    background-color:rgb(255, 113, 32);
+    width: 20vw;
+}
+
+.strip2{
+    height: 20vh;
+    background-color: rgb(255, 113, 32);
+    width: 40vw;
+}
+
+.strip3{
+    height: 20vh;
+    background-color: rgb(255, 113, 32);
+    width: 10vw;
+}
+
+.strip4{
+    height: 20vh;
+    background-color: rgb(255, 113, 32);
+    width: 60vw;
+}
+
+.strip5{
+    height: 20vh;
+    background-color: rgb(255, 113, 32);
+    width: 30vw;
+}

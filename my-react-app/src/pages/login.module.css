@@ -99,7 +99,7 @@
 .inputContainer input{
     font-family: 'DS-Digital', monospace;
     background-color: white;
-    width: 70%;
+    width: 90%;
     border-style: none;
     border: 2px rgb(255, 113, 32) solid;
     height: 40px;
@@ -111,20 +111,23 @@
 }
 
 .inputContainer input:hover{
-    outline: 3px rgb(115, 115, 115) solid;
+    outline: 2px rgb(115, 115, 115) solid;
 }
 
 .inputContainer input:focus{
-    outline: 3px rgb(255, 113, 32) solid;
+    outline: 2px rgb(255, 113, 32) solid;
 }
 
 .inputContainer label{
     text-align: left;
-    width: 70%;
+    width: 100%;
     margin: 10px 0px;
 }
 
 
 .buttonContainer{
     display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px 0px;
 }
