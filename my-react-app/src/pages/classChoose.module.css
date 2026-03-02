@@ -1,3 +1,90 @@
+
+.background{
+    background-color: rgb(255, 113, 32);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 100vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 10px;
+}
+
+.header{
+    width: 71vw;
+    height: 85px;
+    border-radius: 50px 50px 50px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.body{
+    width: 73vw;
+    height: 70vh;
+    border-radius: 0px 50px 50px 50px;
+    background-color: rgb(228, 228, 228);
+    overflow: scroll;
+    padding: 15px 1px 15px 15px;
+}
+
 .title{
-    color: blue;
+    margin: 0;
+}
+
+.leftHeader{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.rightHeader{
+    display: flex;
+    justify-content: right;
+}
+
+.searchInput{
+    font-family: 'DS-Digital', monospace;
+    background-color: white;
+    width: 20px;
+    border-style: none;
+    border: 2px rgb(255, 113, 32) solid;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 15px;
+    transition: 0.2s;
+    border-style: none;
+    outline: 2px rgb(115, 115, 115) solid;
+
+}
+
+
+.searchInput:focus{
+    width: 100%;
+    outline: 2px rgb(255, 113, 32) solid;
+}
+
+.searchInput:hover{
+    width: 100%;
+    outline: 2px rgb(115, 115, 115) solid;
+}
+
+
+.workspaceBlock{
+    width: 70vw;
+    height: 90px;
+    border-radius: 0px 50px 50px 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 20px;
 }

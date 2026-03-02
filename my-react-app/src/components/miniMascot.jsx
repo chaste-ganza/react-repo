@@ -1,6 +1,6 @@
-import styles from './mascot.module.css'
+import styles from './miniMascot.module.css'
 
-function Mascot(props){
+function MiniMascot(props){
     return(
         <div className={styles.mascotContainer}>
             <div className={styles.mascot}>
@@ -30,15 +30,10 @@ function Mascot(props){
                     <div className={styles.under}></div>
                     <div className={styles.under}></div>
                     <div className={styles.under}></div>
-                    <div className={styles.under}></div>
-                    <div className={styles.under}></div>
-                    <div className={styles.under}></div>
-                    <div className={styles.under}></div>
-                    <div className={styles.under}></div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Mascot; 
+export default MiniMascot;
