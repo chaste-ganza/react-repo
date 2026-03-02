@@ -1,0 +1,102 @@
+:root{
+    ---orange: white;
+    ---white: rgb(255, 113, 32);
+}
+
+.mascotContainer{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(---orange);
+}
+
+
+.mascot{
+    height: 60px;
+    width: 50px;
+}
+
+
+
+.upperPart{
+    height: 25%;
+    width: 50px;
+    background-color: var(---white);
+    border-radius: 500px 500px 0px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top:20px ;
+}
+
+.eyeContainer{
+    height: 30%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.eye{
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    background-color: var(---orange);
+    
+}
+
+.upperEye{
+    height: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.eyeSpark{
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: var(---white);
+}
+
+.lowerEye{
+    height: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+.underCover{
+    top: 20;
+    height: 0%;
+    width: 100%;
+    background-color: var(---white);
+    border-radius: 500px 500px 0px 0px;
+    
+}
+
+.lowerPart{
+    width: 50px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.under{
+    height: 100%;
+    background-color: var(---white);
+    width: 100%;
+    border-radius: 0px 0px 500px 500px;
+}
+
+
+
+
+

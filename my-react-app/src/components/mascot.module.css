@@ -1,18 +1,33 @@
+:root{
+    ---size: 100vw;
+}
+
+.mascotContainer{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 113, 32);
+}
+
+
 .mascot{
-    animation: float 4s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
     height: 200px;
     width: 220px;
 }
 
+
 @keyframes float {
   0% {
-    transform: translateY(0);
+    transform: translateY(0px);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-25px);
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(0px);
   }
 }
 
@@ -43,30 +58,38 @@
     height: 50px;
     width: 50px;
     background-color: rgb(255, 113, 32);
+    
+}
+
+.upperEye{
+    height: 25px;
+    width: 100%;
     display: flex;
     justify-content: right;
 }
 
 .eyeSpark{
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background-color: white;
 }
 
-.mouthContainer{
-    height: 30%;
-    width: 80%;
+.lowerEye{
+    height: 25px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: end;
 }
 
 
-.mouth{
-    height: 50px;
-    width: 60%;
-    background-color: rgb(255, 113, 32);
-    border-radius: 0px 0px 500px 500px;
+.underCover{
+    top: 20;
+    height: 100%;
+    width: 0%;
+    background-color: white;
+    border-radius: 500px 500px 0px 0px;
 }
 
 .lowerPart{
@@ -87,10 +110,3 @@
 
 
 
-.mascotContainer{
-    height: 400px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

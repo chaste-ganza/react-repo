@@ -1,7 +1,6 @@
 import styles from './transition.module.css'
 
-function Transition(){
-    return(
+const strips = (
         <div className={styles.background}>
             <div className={styles.strip1}></div>
             <div className={styles.strip2}></div>
@@ -9,6 +8,12 @@ function Transition(){
             <div className={styles.strip4}></div>
             <div className={styles.strip5}></div>
         </div>
+    );
+
+
+function Transition(){
+    return(
+        strips
     )
 }
 

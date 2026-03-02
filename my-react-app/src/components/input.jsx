@@ -1,9 +1,9 @@
 import styles from "./input.module.css"
 
-function input(type){
+function Input(type){
     return (
         <input type={type} className={styles.input}></input>
     )
 }
 
-export default input;
+export default Input;
